@@ -36,10 +36,6 @@ is read and displayed in the status text area. It can be set with the
 .BR xsetroot (1)
 command.
 .TP
-.B Button1
-click on a tag label to display all windows with that tag, click on the layout
-label toggles between tiled and floating layout.
-.TP
 .B Button3
 click on a tag label adds/removes all windows with that tag to/from the view.
 .TP
@@ -75,43 +71,27 @@ Send focused window to next screen, if any.
 Toggles bar on and off.
 .TP
 .B Mod1\-t
-Sets tiled layout.
-.TP
-.B Mod1\-f
-Sets floating layout.
-.TP
-.B Mod1\-m
-Sets monocle layout.
-.TP
-.B Mod1\-space
-Toggles between current and previous layout.
+Resizes window to fillscreen and puts it bellow all windows.
 .TP
 .B Mod1\-j
 Focus next window.
 .TP
+.B Mod1\-Control\-j
+Focus next window and move the window to the top.
+.TP
 .B Mod1\-k
 Focus previous window.
 .TP
-.B Mod1\-i
-Increase number of windows in master area.
+.B Mod1\-Control\-k
+Focus previous window and move the window to the top.
 .TP
-.B Mod1\-d
-Decrease number of windows in master area.
-.TP
-.B Mod1\-l
-Increase master area size.
-.TP
-.B Mod1\-h
-Decrease master area size.
-.TP
-.B Mod1\-Return
-Zooms/cycles focused window to/from master area (tiled layouts only).
+.B Mod1\-Shift\-s
+Make focused window think it has been unminimised
+
+(this fixes some steam games that go to a black screen when unfocused).
 .TP
 .B Mod1\-Shift\-c
 Close focused window.
-.TP
-.B Mod1\-Shift\-space
-Toggle focused window between tiled and floating state.
 .TP
 .B Mod1\-Tab
 Toggles to the previously selected tags.
