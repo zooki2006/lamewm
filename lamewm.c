@@ -2142,6 +2142,8 @@ fillscreen(const Arg *arg){
 	Monitor *m = c->mon;
 	if(!c)
 		return;
+	if (c->isfullscreen)
+		return;
 	resize(c, m->wx, m->wy, m->ww - 2 * c->bw, m->wh - 2 * c->bw, 0);
 	//XRaiseWindow(dpy, c->win);
 	XLowerWindow(dpy, c->win);
