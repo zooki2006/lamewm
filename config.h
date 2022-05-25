@@ -72,7 +72,7 @@ static Key keys[] = {
 	{ ALTMODKEY|ControlMask|ShiftMask, XK_Tab, upfocusstack,   {.i = -1 } },
 	{ MODKEY,                       XK_Tab,    view,           {0} },
 	{ MODKEY|ShiftMask,             XK_c,      killclient,     {0} },
-	{ MODKEY,                       XK_c,      center,         {0} },
+	{ MODKEY,                       XK_c,      centerwin,      {0} },
 	{ MODKEY,                       XK_f,      fillscreen,     {0} },
 	{ MODKEY,                       XK_0,      view,           {.ui = ~0 } },
 	{ MODKEY|ShiftMask,             XK_0,      tag,            {.ui = ~0 } },

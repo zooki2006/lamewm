@@ -2127,7 +2127,7 @@ xerrorstart(Display *dpy, XErrorEvent *ee)
 
 
 void
-center(const Arg *arg){
+centerwin(const Arg *arg){
 	Client *c = selmon->sel;
 	if(!c)
 		return;
