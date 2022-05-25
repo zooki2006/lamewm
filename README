@@ -1,36 +1,36 @@
-dwm - dynamic window manager
+lamewm - lame window manager
 ============================
-dwm is an extremely fast, small, and dynamic window manager for X.
+lamewm is an extremely fast, small, and dynamic window manager for X.
 
 
 Requirements
 ------------
-In order to build dwm you need the Xlib header files.
+In order to build lamewm you need the Xlib header files.
 
 
 Installation
 ------------
-Edit config.mk to match your local setup (dwm is installed into
+Edit config.mk to match your local setup (lamewm is installed into
 the /usr/local namespace by default).
 
-Afterwards enter the following command to build and install dwm (if
+Afterwards enter the following command to build and install lamewm (if
 necessary as root):
 
     make clean install
 
 
-Running dwm
+Running lamewm
 -----------
-Add the following line to your .xinitrc to start dwm using startx:
+Add the following line to your .xinitrc to start lamewm using startx:
 
-    exec dwm
+    exec lamewm
 
-In order to connect dwm to a specific display, make sure that
+In order to connect lamewm to a specific display, make sure that
 the DISPLAY environment variable is set correctly, e.g.:
 
-    DISPLAY=foo.bar:1 exec dwm
+    DISPLAY=foo.bar:1 exec lamewm
 
-(This will start dwm on display :1 of the host foo.bar.)
+(This will start lamewm on display :1 of the host foo.bar.)
 
 In order to display status info in the bar, you can do something
 like this in your .xinitrc:
@@ -39,10 +39,10 @@ like this in your .xinitrc:
     do
     	sleep 1
     done &
-    exec dwm
+    exec lamewm
 
 
 Configuration
 -------------
-The configuration of dwm is done by creating a custom config.h
+The configuration of lamewm is done by creating a custom config.h
 and (re)compiling the source code.
