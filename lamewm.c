@@ -226,7 +226,7 @@ static Monitor *wintomon(Window w);
 static int xerror(Display *dpy, XErrorEvent *ee);
 static int xerrordummy(Display *dpy, XErrorEvent *ee);
 static int xerrorstart(Display *dpy, XErrorEvent *ee);
-static void center(const Arg *arg);
+static void centerwin(const Arg *arg);
 static void fillscreen(const Arg *arg);
 static void show(const Arg *arg);
 static void pushtop(const Arg *arg);
